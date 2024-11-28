@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fefae0;
+    color: #333;
+  }
+  
+  header {
+    background: #f4a261;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+  }
+  
+  #slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    overflow: hidden; /* Hide the overflowing images */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for better aesthetics */
+    background-color: #f9f9f9; /* Subtle background color */
+    
+  }
+
+  .slides {
+    display: flex; /* Arrange images in a row */
+    transition: transform 0.5s ease-in-out; /* Smooth transition */
+    width: 100%; /* Set a fixed width for smooth sliding */
+  }
+  
+  .slides img {
+    min-width: 100%; /* Ensure each image takes up full width of the container */
+    height: auto;
+  }
+  
+  #description, #donate, #social {
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+  
+  footer {
+    background: #264653;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #e76f51;
+  }
+  
+  @media (max-width: 600px) {
+    #description, #donate, #social {
+      padding: 1rem;
+    }
+  }
+  
